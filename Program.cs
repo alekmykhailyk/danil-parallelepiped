@@ -25,7 +25,8 @@ public class Program
     {
         // ініціалізаія обʼєкту, який має клас паралелограм
         Parallelepiped myParallelepiped = new Parallelepiped();
-        // завдання його атрибутів
+        // завдання його атрибутів, тут вже працює аналог hero.findNearest(),
+        // тому що myParallelepiped - це вже обʼєкт
         myParallelepiped.side = 3.5;
         myParallelepiped.height = 1.88;
         // вивод на екран результату роботи методу площа
